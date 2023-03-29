@@ -10,12 +10,12 @@ The list of animations can be provided as a URL to a text file containing the da
 # Pre Installation
 * Download the LuaBridge library from the official GitHub repository: https://github.com/vinniefalco/LuaBridge
 * Extract the contents of the downloaded archive to a local directory
-* Open the Visual Studio solution file located in the build\msvc directory of the extracted archive
+* Open the Visual Studio solution file located in the `build\msvc` directory of the extracted archive
 * Select the appropriate build configuration (e.g. Debug, Release) and build the solution
-* Once the build is complete, copy the luabridge.lib and luabridge.dll files to your project directory or a directory where your project can find them
-* In your project settings, add the directory containing the luabridge.lib file to the "Library Directories" option
+* Once the build is complete, copy the `luabridge.lib` and `luabridge.dll` files to your project directory or a directory where your project can find them
+* In your project settings, add the directory containing the `luabridge.lib` file to the "Library Directories" option
 * In your project settings, add "luabridge.lib" to the "Additional Dependencies" option under the "Linker" settings
-* In your code, include the LuaBridge header file by adding #include "LuaBridge/LuaBridge.h" at the top of your file
+* In your code, include the LuaBridge header file by adding `#include "LuaBridge/LuaBridge.h"` at the top of your file
 
 # Installation
 * Install the ScriptHookRDR2 SDK (https://www.dev-c.com/rdr2/scripthookrdr2/)
